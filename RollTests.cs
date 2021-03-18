@@ -50,7 +50,7 @@ namespace RollTest
             int expected = 0;
             int actual = roll.getScore();
 
-            Assert.AreEqual(expected, actual, "test 1 score calculation incorrect");
+            Assert.AreEqual(expected, actual, "test 2 score calculation incorrect");
         }
 
         [TestMethod]
@@ -65,7 +65,7 @@ namespace RollTest
             int expected = 350;
             int actual = roll.getScore();
 
-            Assert.AreEqual(expected, actual, "test 1 score calculation incorrect");
+            Assert.AreEqual(expected, actual, "test 3 score calculation incorrect");
         }
 
         [TestMethod]
@@ -80,7 +80,7 @@ namespace RollTest
             int expected = 250;
             int actual = roll.getScore();
 
-            Assert.AreEqual(expected, actual, "test 1 score calculation incorrect");
+            Assert.AreEqual(expected, actual, "test 4 score calculation incorrect");
         }
 
         [TestMethod]
@@ -95,7 +95,7 @@ namespace RollTest
             int expected = 600;
             int actual = roll.getScore();
 
-            Assert.AreEqual(expected, actual, "test 1 score calculation incorrect");
+            Assert.AreEqual(expected, actual, "test 5 score calculation incorrect");
         }
     }
 }

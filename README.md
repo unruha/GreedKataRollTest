@@ -1,5 +1,10 @@
 # GreedKataRollTest
 
+## Description
+```
+A set of unit tests to test the correctness of the score calculation in GreedKata (https://github.com/unruha/GreedKata)
+```
+
 ## Alaska Airlines Coding Exercise Prompt
 ```
 Questions you came up with:
